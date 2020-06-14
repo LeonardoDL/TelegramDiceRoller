@@ -1,0 +1,11 @@
+sentence = ['('] expr [')']
+expr     = parcel (op1 parcel)
+parcel   = factor {op2 factor}
+factor 	 = symbol {op3 symbol}
+op1      = '+' | '-'
+op2      = '*' | '/'
+op3      = 'd' | 'D'
+symbol   = number [var] | var | sentence
+number   = digit{digit}
+var      = 'l' | 'L' | 'h' | 'H'
+digit    = '0' | '1' | '2' | '3' | '4' | '5' | '6' | '7' | '8' | '9'
