@@ -37,7 +37,7 @@ class BotHandler:
         return last_update
 
 
-token = '1026926157:AAHPESTZ8flyFuCvFzoJWFCACoji3i4Eh9Y' #Token of your bot
+token = '' #Token of your bot
 dice_bot = BotHandler(token) #Your bot's name
 
 def main():
