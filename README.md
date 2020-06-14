@@ -2,7 +2,7 @@
 
 I made a bot for Telegram that allows you to make more complex rolls than the standard Roll'emBot.</br>
 The bot might still have a few bugs because I didn't spend that much time debugging it, so use it on your own risk.</br>
-You can copy the code to your machine, generate a new bot_id with bot father and create your own diceBot.
+You can copy the code to your machine, generate a new bot_id with bot father and create your own diceBot. You can also just copy the compiler/lexer and classes and use it with any python program, just make the calls to the compiler.
 
 #### Explaining the roll command:
 
